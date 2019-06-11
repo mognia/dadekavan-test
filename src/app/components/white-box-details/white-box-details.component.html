@@ -26,8 +26,8 @@
           </mat-drawer>
           <mat-drawer-content>
             <app-user-info *ngIf='selectedComponent == "userInfo"'></app-user-info>
-            <app-user-address *ngIf='selectedComponent == "userAddress"'></app-user-address>
-            <app-user-contact *ngIf='selectedComponent == "contactInfo"'></app-user-contact>
+            <app-user-address [user]='selectedUser' *ngIf='selectedComponent == "userAddress"'></app-user-address>
+            <app-user-contact [user]='selectedUser' *ngIf='selectedComponent == "contactInfo"'></app-user-contact>
           </mat-drawer-content>
         </mat-drawer-container>
       </div>
