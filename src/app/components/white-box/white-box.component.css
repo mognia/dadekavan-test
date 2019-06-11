@@ -1,0 +1,22 @@
+.whiteBox {
+    background: #fff;
+    margin-top: -4.2%;
+    /* z-index: 10000000000; */
+    width: 76%;
+    position: absolute;
+    margin-left: 3%;
+    border-radius: 6px;
+    padding: 1% 0;
+}
+
+i.fa.fa-sort-down {
+    margin: 5px 14px;
+}
+.head{
+    text-align: right;
+    padding: 11px 15px;
+    border-bottom: 1px solid #80808047;
+}
+mat-checkbox#mat-checkbox-1 {
+    margin-right: 16px;
+}

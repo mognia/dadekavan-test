@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@font-face {
+    font-family: iranSans;
+    src: url(./assets/fonts/iransansMedium.woff2);
+  }
+  body{
+      font-family: iranSans;
+      margin: 0;
+      background-color: #F5F5F5;
+  }
+html, body { height: 100%; }
+body { margin: 0 }
+p{
+  display: inline-block;
+}

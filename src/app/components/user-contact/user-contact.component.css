@@ -1,0 +1,46 @@
+.head button{
+    font-family: iransans;
+    margin: 14px 0 0 22px;
+    background-color: #039be5;
+}
+.ctrls{
+    margin: 14px 36px 0 0;
+    font-size: 27px;
+}
+
+i.fa.fa-trash {
+    color: #6d6d6d;
+    border-right: 1px solid #6d6d6d61;
+    padding: 0 10px;
+}
+.head{
+    height: 66px;
+    border-bottom: 1px solid #6d6d6d45;
+}
+.address{
+    margin: 19px 0px 0 0px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.address mat-checkbox{
+    margin-right: 5.5%;
+}
+i.fa.fa-ellipsis-v {
+    margin-left: 6%;
+    font-size: 22px;
+    color: gray;
+}
+.addr{
+    display: block;
+    margin-right: 10%;
+    font-size: 13px;
+    font-weight: 200;
+    color: #7d7878;
+    font-family: iranSans;
+
+}
+.city{
+    font-family: iranSans;
+    font-size: 19px;
+    color: #4e4e4e;
+    padding-right: 12px;
+}

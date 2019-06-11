@@ -1,0 +1,28 @@
+<div  class="user-list">
+
+  <div  *ngFor='let user of users'  class="user-container">
+      <i class="fa fa-ellipsis-v float-left"></i>
+    <div class="userInfo">
+      <p class="phone">{{user.phone}}</p>
+      <p class="name">{{user.name}}</p>
+      <img src="{{user.photo}}" class="avatar" alt="" srcset="">
+      <mat-radio-button (change)='detecdUser(user)'></mat-radio-button>
+
+    </div>
+    <div class="user-badge">
+      <span class="badge badge-pill badge-secondary">
+        واحد برنامه نویسی
+        <div class="programerBadge"></div>
+      </span>
+      <span class="badge badge-pill badge-secondary">
+        سمت دیباگر
+        <div class="debugerBadge"></div>
+      </span>
+
+    </div>
+  </div>
+  <mat-paginator [length]="100"
+              [pageSize]="3"
+              [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator>
+</div>

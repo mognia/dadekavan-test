@@ -1,0 +1,54 @@
+.user-container {
+    text-align: right;
+    border-bottom: 1px solid #8080802e;
+    margin: 10px 0 0 0;
+}
+.user-list {
+    border-left: 1px solid #8080802e;
+}
+mat-checkbox {
+    margin-right: 8%;
+}
+img.avatar {
+    max-width: 57px;
+    border-radius: 50%;
+    margin: 10px 6%;
+}
+p.phone {
+    font-size: 14px;
+    color: #00000070;
+    margin: 0 28px 0 0;
+}
+.debugerBadge{
+    height: 10px;
+    background-color: #101010;
+    width: 10px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.badge-secondary {
+    color: #777777e3;
+    padding: 7px;
+    background-color: #6c757d26;
+}
+.user-badge{
+    padding: 11px 15%;
+}
+.programerBadge{
+    height: 10px;
+    background-color: #cc6922;
+    width: 10px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.badge{
+    margin: 0 4px;
+}
+i.fa.fa-ellipsis-v {
+    margin: 5px 17px;
+    font-size: 26px;
+    color: #6d6d6d;
+}
+.name{
+    max-width: 76px;
+}

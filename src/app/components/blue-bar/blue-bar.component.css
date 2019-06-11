@@ -1,0 +1,39 @@
+.blueBar{
+    background-color: #039BE5;
+    height: 12em;
+}
+.m3{
+    margin: 3% 0;
+}
+.addBtn{
+    width: 10em;
+    height: 3.5em;
+    margin-left: 12%;
+    font-family: iranSans;
+}
+.searchInput{
+    width: 91%;
+    height: 46px;
+    border-radius: 26px;
+    padding: 0 5%;
+    border: none;
+}
+.input-wrapper:after {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    left: 84%;
+    padding: 9px 0;
+    color: gray;
+    font-size: 17px;
+}
+.title{
+    display: inline-block;
+    color: #fff;
+    font-size: 21px;
+    padding: 0 17px 0 0;
+}
+i.fa.fa-suitcase {
+    color: #fff;
+    font-size: 37px;
+}

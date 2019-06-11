@@ -1,0 +1,16 @@
+<div class="whiteBox">
+  <div class="head ">
+    <i class="fa fa-sort-down "></i>
+    <mat-checkbox class=""></mat-checkbox>
+
+  </div>
+  <div class="row">
+    <div class="col-8">
+      <app-white-box-details [selectedUser]=user></app-white-box-details>
+    </div>
+    <div class="col-4">
+      <app-white-box-list (selectedUser)='userHandeler($event)'></app-white-box-list>
+    </div>
+
+  </div>
+</div>

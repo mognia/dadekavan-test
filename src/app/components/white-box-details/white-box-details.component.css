@@ -1,0 +1,88 @@
+.userImg {
+  max-width: 7em;
+  margin-top: -20%;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: relative;
+}
+.head {
+  text-align: right;
+  overflow: hidden;
+  width: 103.5%;
+}
+
+.bgImg {
+  background-image: url();
+  filter: blur(15px) brightness(0.8);
+  opacity: 0.9;
+  height: 9em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 102% 183%;
+  position: relative;
+}
+.name {
+  margin-top: -10%;
+  position: absolute;
+  right: 16%;
+  color: #fff;
+  font-size: 25px;
+  max-width: 153px;
+}
+.editBtn {
+  margin-top: -8%;
+  position: absolute;
+  right: 35%;
+  font-size: 15px;
+  width: 10em;
+  background: #00000042;
+}
+.editBtn i {
+  font-size: 17px;
+}
+.controls {
+  margin-top: -15%;
+  margin-left: 2%;
+  position: absolute;
+  font-size: 19px;
+  color: #fff;
+}
+.controls i {
+  padding: 0 10px;
+}
+.detail-body {
+  margin-top: -3%;
+  background: #ffff;
+  width: 104%;
+  position: relative;
+  text-align: right;
+}
+.mat-drawer-container {
+  min-height: 17em;
+}
+.mat-tab-label .mat-tab-label-content {
+  font-family: iranSans !important;
+  font-size: 17px;
+}
+.mat-drawer-content {
+  min-height: 10em;
+  background-color: #fff;
+}
+
+/* active tab */
+/* ::ng-deep .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+  color: red;
+  background-color: green;
+} */
+::ng-deep .mat-tab-label {
+    font-family: iranSans;
+    font-size: 18px;
+  }
+/* ink bar */
+::ng-deep .mat-ink-bar {
+  background-color: var(--primary-color, #1f89ce) !important;
+}
+
+.drawer{
+    margin-right: 1px;
+}

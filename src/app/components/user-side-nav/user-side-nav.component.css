@@ -1,0 +1,13 @@
+.menuItem{
+    font-family: iranSans;
+    border-bottom: 1px solid #0000001f;
+    padding: 5px 20px;
+    color: #00000096;
+}
+.active{
+    background-color: #E1F5FE;
+}
+.menuItem p{
+    margin: 0;
+    padding: 9px 14px;
+}
